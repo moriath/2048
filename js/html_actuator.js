@@ -172,7 +172,7 @@ HTMLActuator.prototype.scoreTweetButton = function () {
   tweet.setAttribute("href", "https://twitter.com/share");
   tweet.textContent = "Tweet";
 
-  var text = "I scored" + this.score + " points in Dark Hunter 2048! http://ow.ly/vpoFS  #2048game"
+  var text = "I scored " + this.score + " points in Dark Hunter 2048! http://ow.ly/vpoFS  #2048game #sherrilynkenyon"
   tweet.setAttribute("data-text", text);
 
   return tweet;
